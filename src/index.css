@@ -150,7 +150,7 @@
 .banner {
   background: url(https://img.freepik.com/free-photo/sofa-by-tiled-wall_53876-88587.jpg?t=st=1731340050~exp=1731343650~hmac=74cfbd1bba11f51447a74012862eb7a072800ad72d43331b29306ed4dbf2ee21&w=1380);
   background-size: cover;
-  background-position: center center;
+  background-position: 0 -340px;
   background-repeat: no-repeat;
   height: 90vh;
   display: flex;
