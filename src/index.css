@@ -1,0 +1,222 @@
+* {
+  transition: .5s;
+}
+
+.bg-body-tertiary {
+  padding: 40px 0;
+  --bs-bg-opacity: 0;
+}
+
+.catalog {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+.content {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title h2 {
+  font-size: 32px;
+  font-weight: 400;
+  color: black;
+}
+
+.title-block {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.form-control {
+  width: 300px;
+  background: transparent;
+  border: 1.5px solid rgb(90, 114, 84);
+}
+
+.sort {
+  background: transparent;
+  border: 1.5px solid rgb(90, 114, 84);
+  border-radius: 10px;
+  padding: 7px 10px;
+}
+
+.search {
+  background: transparent;
+  border: 1.5px solid rgb(90, 114, 84);
+  border-radius: 10px;
+  padding: 7px 10px;
+  outline: none;
+}
+
+.catalog-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: start;
+  gap: 20px;
+  margin-top: 70px;
+}
+
+.card {
+  width: 420px;
+}
+
+.item-link {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-link a {
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.item-link a:hover {
+  opacity: 0.5;;
+}
+
+.item-link p {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.categories {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.categories_btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.categories_btn .btn {
+  border: 1.5px solid rgb(90, 114, 84);
+  padding: 7px 15px;
+  transition: .5s;
+}
+
+.categories_btn .btn:hover {
+  color: white;
+  background-color: rgb(90, 114, 84);
+}
+
+.categories p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.error {
+  font-size: 20px;
+  padding-top: 70px;
+  height: 1000px;
+  text-align: center;
+}
+
+.me-auto {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.me-auto .header-link {
+  color: gray;
+  text-decoration: none;
+}
+
+.text-muted {
+  border: none;
+  background: none;
+  font-size: 20px;
+}
+
+.banner {
+  background: url(https://img.freepik.com/free-photo/minimal-living-room-interior-design-with-leaf-shadow-wall_53876-129802.jpg?t=st=1731336281~exp=1731339881~hmac=740c8cbc9cc6d39d58c3acb6edd5bf257569f04f6abf2e7e2c5fbcea239faa2f&w=1380);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+.banner h2 {
+  padding-top: 200px;
+  font-size: 60px;
+  font-weight: 300;
+  color: black;
+}
+
+.gallery {
+  padding: 70px 0;
+}
+
+.gallery h2 {
+  font-size: 45px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.slider-container {
+  width: 1300px;
+  padding: 60px 0;
+  margin: 0 auto;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black;
+  font-size: 24px;
+}
+
+.slide img {
+  width: 380px;
+  height: 300px;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.slick-slide.slick-center .slide img {
+  opacity: 1;
+}
+
+.faq {
+  padding-bottom: 100px;
+}
+
+.faq h2 {
+  font-size: 45px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.accordeon {
+  width: 1300px;
+  margin: 70px auto;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgb(90, 114, 84);
+  color: white;
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  filter: invert(1);
+}
